@@ -1,0 +1,8 @@
+{
+    "builds": [
+        { "src": "upload-ai-api/**", "use": "@vercel/node" },
+        { "src": "upload-ai-web/**", "use": "@vercel/static" }
+      ],
+    "buildCommand": "next build",
+    "framework": "nextjs"
+}
